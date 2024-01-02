@@ -13,3 +13,7 @@ server_script{
 	'@ag_framework/locale.lua',
 	'@ag_framework/database/lib/mysql.lua'
 }
+
+shared_scripts{
+	'config.lua'
+}
