@@ -1,12 +1,3 @@
-Items = {
-    'action_comic',
-    '10ctgoldchain',
-    'gfuel',
-    'glass',
-    'gold',
-    'hotdog'
-}
-
 RegisterNetEvent('cr_scav:Search')
 AddEventHandler('cr_scav:Search', function()
     local xPlayer = Aspire.GetCharacterFromId(source)
